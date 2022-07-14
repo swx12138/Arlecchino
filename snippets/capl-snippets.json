@@ -137,16 +137,16 @@
         "description": "Code snippet for message",
         "scope": "source.capl"
     },
+    "on preStart": {
+        "prefix": "on preStart",
+        "body": "on preStart\n{\n\t${1:/* code */}\n}\n",
+        "description": "code snippet for on preStart",
+        "scope": "source.capl"
+    },
     "on start": {
         "prefix": "on start",
         "body": "on start\n{\n\t${1:/* code */}\n}\n",
         "description": "code snippet for on start",
-        "scope": "source.capl"
-    },
-    "on prestart": {
-        "prefix": "on preStart",
-        "body": "on preStart\n{\n\t${1:/* code */}\n}\n",
-        "description": "code snippet for on preStart",
         "scope": "source.capl"
     },
     "on preStop": {
@@ -154,6 +154,10 @@
         "body": "on preStop\n{\n\t${1:/* code */}\n}\n",
         "description": "code snippet for on preStop",
         "scope": "source.capl"
+    },
+    "on stop": {
+        "prefix": "on stop",
+        "body": "on stop\n{\n\t${0:/* code */}\n}\n"
     },
     "on timer": {
         "prefix": "on timer",

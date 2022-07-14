@@ -7,6 +7,9 @@
     "engines": {
         "vscode": "^1.22.0"
     },
+    "activationEvents": [
+        "onLanguage:capl"
+    ],
     "icon": "",
     "contributes": {
         "languages": [
