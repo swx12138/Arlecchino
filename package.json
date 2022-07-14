@@ -43,11 +43,11 @@
         ]
     },
     "scripts": {
-        "publish": "vsce package"
+        "publish": "vsce package -o ./dist"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/swx12138/vscode-my-extension.git"
+        "url": "https://github.com/swx12138/vscode-my-extension"
     },
     "license": "none"
 }
