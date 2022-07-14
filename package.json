@@ -1,0 +1,53 @@
+{
+    "name": "vscode-coding-maid",
+    "displayName": "Arlecchino",
+    "description": "for myself",
+    "version": "0.0.0",
+    "publisher": "Arlecchino's Dog",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "icon": "",
+    "contributes": {
+        "languages": [
+            {
+                "id": "capl",
+                "aliases": [
+                    "Communication Access Programming Language (CAPL)",
+                    "capl",
+                    "CAPL"
+                ],
+                "extensions": [
+                    ".can",
+                    ".cin"
+                ],
+                "configuration": "./language-configuration.json",
+                "icon": {
+                    "dark": "",
+                    "light": ""
+                }
+            }
+        ],
+        "grammars": [
+            {
+                "language": "capl",
+                "scopeName": "source.capl",
+                "path": "./syntaxes/capl.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "capl",
+                "path": "./snippets/capl-snippets.json"
+            }
+        ]
+    },
+    "scripts": {
+        "publish": "vsce package"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swx12138/vscode-my-extension.git"
+    },
+    "license": "none"
+}
